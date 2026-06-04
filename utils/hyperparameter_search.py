@@ -43,7 +43,7 @@ def run_optuna_study(
     n_trials : int
         Number of optuna trials in study
     study_name : str
-        I don't know what this does
+        Name of the study
     storage : str
         where to store the study, ex: sqlite:///optuna_study.db
     random_state : int
